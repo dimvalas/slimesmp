@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // New function for the Java Join Button
     if (javaBtn) {
         javaBtn.addEventListener('click', function () {
-            const ip = 'play.slime-smp.com';
+            const ip = 'play.slimesmp.online';
             copyToClipboard(ip, 'Java IP');
         });
     }
@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // New function for the Bedrock Join Button
     if (bedrockBtn) {
         bedrockBtn.addEventListener('click', function () {
-            const bedrockDetails = 'IP: play.slime-smp.com\nPort: 19132';
-            copyToClipboard(bedrockDetails, 'Bedrock details');
+            const bedrockDetails = 'Unavailable';
+            copyToClipboard(bedrockDetails, 'This does NOT work for now!');
         });
     }
 
